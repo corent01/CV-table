@@ -1,0 +1,45 @@
+body {
+  width: 900px;
+  height: auto;
+}
+table {
+}
+.masterskills{
+  float: right;
+}
+#skills {
+  padding-bottom: 25px;
+  padding-left: 100px;
+
+
+}
+#personalskills {
+  padding-left: 100px;
+
+}
+ {
+  padding-right: 150px;
+}
+.tab1 {
+margin-top: ;
+
+
+
+}
+
+.tab2 {
+padding-bottom: px;
+
+}
+#avancement {
+  background-color: grey;
+  border-radius: 50px;
+  display:inline-block;
+  position: relative;
+}
+
+progress {
+  border-radius: 50px;
+  display:inline-block;
+  position: relative;
+}
