@@ -11,7 +11,8 @@
 
 </head>
   <body>
-  <section>
+  <main>
+
     <h1>Resume</h1>
   <article class="resume">
       <div class="resume">CORENTIN WARIN GRAPHIC & WEB DEVELOPER
@@ -20,17 +21,19 @@
       <p class="entete4"><a href="https://www.linkedin.com/in/corentin-warin-22a91044/" target="_blank" rel="noopener noreferrer"><img class="socialnetwork" src="linkedin.svg" alt="Linkedin"></a></p>
       <p class="entete5"><a href="https://github.com/corent01" target="_blank" rel="noopener noreferrer"><img class="socialnetwork" src="github.svg" alt="Github"></a></p></div>
     </article>
-    <article class="masterskills">
-  <TABLE id="skills">
+    <section>
+    <article  class="masterskills">
+  <TABLE CELLSPACING=3 CELLPADDING=3 class="skills">
+    <CAPTION class="captionskills"ALIGN=top>SKILLS</CAPTION>
      <TR>
           <TD></TD>
-           <TD>Good</TD>
-           <TD>Average</TD>
-           <TD>Skilled</TD>
+           <TH>Good</TH>
+           <TH>Average</TH>
+           <TH>Skilled</TH>
      </TR>
         <TR>
            <TD>Design</TD>
-             <TD COLSPAN=3><progress id="avancement" value="80" max="100"></progress></TD>
+             <TD COLSPAN=3 ><progress id="avancement" value="80" max="100"></progress></TD>
        </TR>
        <TR>
            <TD>Graphic Design Web</TD>
@@ -92,20 +95,24 @@
   <TD>Mac OS</TD>
     <TD COLSPAN=3><progress id="avancement" value="90" max="100"></progress></TD>
 </TR>
+</TABLE>
+<TABLE CELLSPACING=3 CELLPADDING=3 class="skills2">
+    <CAPTION class="languageskills" ALIGN=top>LANGUAGES-SKILLS</CAPTION>
 <TR>
-  <TD>English</TD>
+    <TD class="langue">English</TD>
     <TD COLSPAN=3><progress id="avancement" value="75" max="100"></progress></TD>
 </TR>
 <TR>
-  <TD>French</TD>
+  <TD class="langue">French</TD>
     <TD COLSPAN=3><progress id="avancement" value="90" max="100"></progress></TD>
 </TR>
 <TR>
-  <TD>Dutsh</TD>
+  <TD class="langue">Dutsh</TD>
     <TD COLSPAN=3><progress id="avancement" value="35" max="100"></progress></TD>
 </TR>
-     </TABLE>
-     <TABLE id="personalskills">
+     <hr></TABLE>
+     <TABLE CELLSPACING=2 CELLPADDING=3 class="personalskills">
+         <CAPTION class="persoskills" ALIGN=top>PERSONAL-SKILLS</CAPTION>
      <TR>
        <TD>Scocial Commitement</TD>
          <TD COLSPAN=3><progress id="avancement" value="90" max="100"></progress></TD>
@@ -126,16 +133,16 @@
        <TD>Team Player</TD>
          <TD COLSPAN=3><progress id="avancement" value="89" max="100"></progress></TD>
      </TR>
-   </TABLE>
+   <hr></TABLE>
   </article>
-  <article class="tab1">
-  <TABLE>
+  <article>
+  <TABLE class="tab1">
     <TR>
-        <TD ROWSPAN=1>2017-....</TD>
+        <TD  ROWSPAN=1>2017-....</TD>
           <TD>BeCode Stagiaire junior web developpeur</TD>
     </TR>
      <TR>
-         <TD ROWSPAN=3>2004-....</TD>
+         <TD id="years" ROWSPAN=3>2004-....</TD>
            <TD>Lights disign and operator of Angel Crew, Emptiness, Beautiful Badness, StereoGrand, ... and many more</TD>
     </TR>
     <TR>
@@ -145,7 +152,7 @@
          <TD>Production Manager at POXIMUS LOUNG EVENT</TD>
      </TR>
      <TR>
-        <TD ROWSPAN=3>2004-2017</TD>
+        <TD  id="years" ROWSPAN=3>2004-2017</TD>
         <TD>Freelance Ingenieur Lumieres Progrmmeur/Operateur/Creation Lumieres</TD>
       </TR>
       <TR>
@@ -155,7 +162,7 @@
            <TD>Architecturals Lightning</TD>
       </TR>
       <TR>
-         <TD ROWSPAN=3>2004-2017</TD>
+         <TD  id="years" ROWSPAN=3>2004-2017</TD>
            <TD>Electricité Bloqueur, dans toute l europe</TD>
       </TR>
       <TR>
@@ -165,7 +172,7 @@
            <TD>International Crew Chief</TD>
      </TR>
      <TR>
-       <TD ROWSPAN=3>2004-2017</TD>
+       <TD  id="years" ROWSPAN=3>2004-2017</TD>
          <TD>Freelance Ingenieur Lumieres Progrmmeur/Operateur/Creation Lumieres</TD>
    </TR>
    <TR>
@@ -176,20 +183,20 @@
    </TR>
      </TABLE>
    </article>
-   <artilce class="tab2">
-    <TABLE>
+   <artilce>
+    <TABLE class="tab2">
           <TR>
-               <TD ROWSPAN=3>2006</TD>
+               <TD  id="years2" ROWSPAN=3>2006</TD>
                  <TD>EVENT ENGINEERING</TD>
            </TR>
            <TR>
                <TD>E.F.P.M.E</TD>
            </TR>
-           <TR>
+           <TR class="TR">
                <TD>Bruxelles Formation, Belgique, Technicien et Régisseur de Spectacles</TD>
            </TR>
               <TR>
-		             <TD ROWSPAN=3>2004</TD>
+		             <TD id="years2" ROWSPAN=3>2004</TD>
 	    	           <TD>GRAPHIC DESIGN</TD>
 	           </TR>
 	           <TR>
@@ -199,7 +206,7 @@
 		             <TD>St Luc Bruxelles</TD>
 	           </TR>
              <TR>
-               <TD ROWSPAN=3>2002</TD>
+               <TD id="years2" ROWSPAN=3>2002</TD>
                  <TD>MARKETING</TD>
            </TR>
            <TR>
@@ -209,7 +216,7 @@
                <TD>Institut des Arts et Métiers de Virton</TD>
            </TR>
            <TR>
-             <TD ROWSPAN=3>2000</TD>
+             <TD id="years2" ROWSPAN=3>2000</TD>
                <TD>ELECTROMECHANICAL</TD>
          </TR>
          <TR>
@@ -226,5 +233,6 @@
     <footer>
 
     </footer>
+  </main>
   </body>
 </html>
