@@ -11,6 +11,60 @@ padding-left: 25px;
 padding-right: 25px;
 position: relative
 }
+.resume{
+  background-color: #3D91CD;
+  width: 100px;
+  height: 70px;
+  color: white;
+  text-align: center;
+  left: 10;
+}
+.resume h1 {
+  padding-top: 50px;
+  font-size: 18px
+}
+.nom a{
+  font-weight: bolder;
+  font-size: 40px;
+  color: #639AD2;
+  text-align: left;
+}
+#fonction {
+  padding-bottom: 100px;
+  font-size: 18px;
+}
+#website a{
+  padding-bottom: -40px;
+  text-align: left;
+  text-decoration: none;
+  font-size: 14px
+  color: black;
+
+}
+#mail a{
+  text-align: left;
+  text-decoration: none;
+  font-size: 14px
+  color: black;
+}
+#entete3 {
+  font-size: 14px;
+  color: black;
+}
+#entete4 a{
+  width: auto;
+  text-align:left;
+  text-decoration: none;
+  font-size: 14px;
+  color: black;
+}
+#entete5 a{
+  width: auto;
+  text-align: left;
+  text-decoration: none;
+  font-size: 14px;
+  color: black;
+}
 section {
 
 }
@@ -18,7 +72,7 @@ section {
   padding-bottom: 100px;
 }
 TABLE td {
-padding-left: 25px;
+padding-left: 18px;
 }
  .captionskills{
   padding-right: 200px;
@@ -35,17 +89,25 @@ color: #639AD2
 }
 .masterskills{
   position: absolute;
-  top: 60;
-  right: 0;
+
+  top: 196px;
+  right: 54px;
   font-size: 12px;
 }
-.skills2{
-  padding-bottom: 20px;
-  padding-top: 20px;
+.masterskills TD {
+padding-right: -1px
 }
-.skills2 td{
-  padding-left:
 
+.skills2{
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.skills td{
+width: 111px;
+
+}
+progress #avancement {
+width: 0;
 }
 .langue{
   text-align: left;
@@ -66,7 +128,6 @@ color: #639AD2
 }
 .tab1 TD TR {
   text-align: left;
-
 }
 
 .tab2 {
@@ -75,9 +136,9 @@ margin-bottom: 100PX;
 margin-right: 393px;
 }
 #avancement {
-  background-color: grey;
-  display:inline-block;
-  position: relative;
+  background-color: #f1f1f1;
+  border: none;
+  width:143px;
 }
 
 progress {
